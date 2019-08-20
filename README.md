@@ -3,7 +3,7 @@ Docker container for testing puppet modules
 
 ### Simple usage
 
-copy the [puppet-test.sh](puppet-test.sh) into your path and just run in the module directory 
+copy the [puppet-test.sh](https://raw.githubusercontent.com/koshatul/puppet-module-test/master/puppet-test.sh) into your path and just run in the module directory 
 
 ```shell
 puppet-test.sh
@@ -11,7 +11,7 @@ puppet-test.sh
 
 ### Example
 
-- Checkout [puppetlabs/puppetlabs-docker](github.com/puppetlabs/puppetlabs-docker) where-ever you normally check out modules or code.
+- Checkout [puppetlabs/puppetlabs-docker](https://github.com/puppetlabs/puppetlabs-docker) where-ever you normally check out modules or code.
 - run `puppet-test.sh` (or the docker command manually).
 - In the docker container run:
 ```shell
